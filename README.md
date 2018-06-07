@@ -1,8 +1,9 @@
 ## What is this?
-This is forked form https://github.com/Nossiac/mtk-openwrt-feeds, only for k2p router.
+本项目源自 https://github.com/Nossiac/mtk-openwrt-feeds ，为k2p进行了定制，请使用k2p分支。
 
     src-git mtk https://github.com/liyiwu/mtk-openwrt-feeds;k2p
 
+k2p分支删除了6715以外的驱动，并使用原厂配置文件。自动加载驱动。在 openwrt-18.06 测试成功。
 
 
 This repo is an **unofficial** MediaTek "feeds" for [OpenWrt](https://openwrt.org "OpenWrt") or [Lede](https://lede-project.org). This project is experimental, and technical support will be limited.
