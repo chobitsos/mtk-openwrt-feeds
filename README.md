@@ -1,10 +1,16 @@
 ## What is this?
+This is forked form https://github.com/Nossiac/mtk-openwrt-feeds, only for k2p router.
+
+    src-git mtk https://github.com/liyiwu/mtk-openwrt-feeds;k2p
+
+
 
 This repo is an **unofficial** MediaTek "feeds" for [OpenWrt](https://openwrt.org "OpenWrt") or [Lede](https://lede-project.org). This project is experimental, and technical support will be limited.
 
 In OpenWrt/Lede, a ["feeds"](https://wiki.openwrt.org/doc/devel/feeds "feeds") is a collection of software components (applications, libraries, kernel-modules, ...) that you can integrate into your OpenWrt/Lede system.
 
 ## How can I use them?
+
 
 I assume that you already have a working OpenWrt/Lede workspace, then add the following line into "feeds.conf.default" (You will find it under the top dir of your workspace).
 
